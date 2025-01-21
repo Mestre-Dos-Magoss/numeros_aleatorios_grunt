@@ -1,0 +1,63 @@
+@fontTitulo:"Lobster",cursive;
+@fontPrincipal:"Roboto",sans-serif;
+@corDoTexto:#fff;
+@corDeFundo:#eb3b5a;
+@corDeFundoDoBotao:rgb(255, 193, 37);
+
+body{
+    font-family:@fontPrincipal;
+    background-color:@corDeFundo;
+    color:@corDoTexto;
+} 
+
+    h1{
+        font-family:@fontTitulo;
+        font-family:3em;
+    }
+
+main{
+    max-width:960px;
+    width:100%;
+    margin:0 auto;
+    font-size:2em;
+    text-align:center;
+}
+
+input{
+    display:block;
+    width:20%;
+    margin:16px auto 0;
+    font-weight:bold;
+    font-size:2.0em;
+    text-align:center;
+    background-color:transparent;
+    border:transparent;
+    outline:transparent;
+    border-bottom:5px solid #fff;;
+}
+
+button{
+    margin-top:16px;
+    padding:16px;
+    font-family:@fontPrincipal;
+    font-weight:bold;
+    font-size:1.3em;
+    border-radius:18px;
+    cursor:pointer;
+    background-color:@corDeFundoDoBotao;
+}
+
+.resultado{
+    display:none;
+    height:130px;
+    max-width:530px;
+    margin:45px auto;
+    border: 5px dashed blue;
+    align-items: center;   
+    justify-content:center;
+       span{
+            font-size:1.5em;
+            font-weight:bold;
+            font-family:@fontPrincipal;
+        }
+}
