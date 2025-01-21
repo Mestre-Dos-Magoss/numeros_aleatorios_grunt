@@ -58,7 +58,7 @@ module.exports = function(grunt){
                         },
                         {
                             match:"ENDEREÇO_DO_JS",
-                            replacement:"../src/script/main.min.js"
+                            replacement:"dist/script/main.min.js"
                         }
                     ]
                 },
